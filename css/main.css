@@ -1,0 +1,36 @@
+html {
+  box-sizing: border-box;
+  font-family: "Open Sans";
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+.banner {
+  max-height: 500px;
+  overflow: hidden;
+  position: relative;
+}
+
+.content{
+  display: inline-block;
+  z-index: 2;
+  bottom: 3em;
+  left: 60%;
+  position: absolute;
+  transform: translateX(-50%);
+}
+
+.first-img {
+  display: inline-block;
+  z-index: 2;
+  bottom: 3em;
+  right: 60%;
+  position: absolute;
+  transform: translateX(-50%);
+}
