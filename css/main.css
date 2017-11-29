@@ -29,7 +29,6 @@ body {
   float: right;
   left: 50%;
   width: 40%;
-  max-width: 50em;
 }
 
 .first-img {
@@ -37,12 +36,13 @@ body {
   transform: translateX(-50%);
   position: absolute;
   left: 50%;
-  width: 60%;
-  top: 5em;
+  width: 95%;
+  top: 2em;
 }
 
 .img-logo {
-  width: 200px;
+  width: 190px;
+  float: left;
 }
 
 h2 {
