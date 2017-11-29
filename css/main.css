@@ -24,18 +24,17 @@ body {
   left: 60%;
   position: absolute;
   transform: translateX(-50%);
-  float: left;
 }
 
 .first-img {
   display: inline-block;
   z-index: 2;
-  top: 7em;
-  right: 60%;
+  left: 20%;
+  top: 10em;
   transform: translateX(-50%);
-  float: right;
-  clear: right;
+  position: absolute;
 }
+
 
 h2 {
   font-family: "Roboto Condensed", sans-serif;
