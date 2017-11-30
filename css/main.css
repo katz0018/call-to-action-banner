@@ -23,26 +23,17 @@ body {
 }
 
 .content {
-  display: inline;
+  display: inline-block;
   position: absolute;
-  transform: translateX(-50%);
-  float: right;
+  max-width: 300px;
   left: 50%;
-  width: 40%;
-}
-
-.first-img {
-  display: inline;
-  transform: translateX(-50%);
-  position: absolute;
-  left: 50%;
-  width: 95%;
-  top: 2em;
 }
 
 .img-logo {
+  display: inline-block;
+  position: absolute;
+  right: 50%;
   width: 190px;
-  float: left;
 }
 
 h2 {
